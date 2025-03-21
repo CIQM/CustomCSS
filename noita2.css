@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "noita";
+    src: url("https://files.catbox.moe/ukhbg2.ttf") format("truetype");
+}
+
+body {
+    background-image: url('https://files.catbox.moe/x0d71n.png');
+}
+
+#logo {
+    background-image: url('https://files.catbox.moe/ku3jrj.png');
+    background-size: contain;
+}
+
+#menu {
+    font-family: noita;
+    font-size: 1.9em;
+    font-weight: normal;
+    background: rgba(20, 35, 50, 0.5);
+}
+
+#menu ul {
+    max-width: 925px;
+    margin-top: -3px;
+}
+
+#menu ul a {
+    color: #fff;
+    padding: 5px 18px;
+}
+
+#menu ul a:hover {
+    color: #aaa !important;
+}
+
+.alertbar a {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+#userinfo {
+    background: rgba(20, 35, 50, 0.5);
+}
+
+#userinfo #userinfo_username .donateico {
+    margin-top: 30px;
+    margin-left: -20px;
+    display: inline-block;
+}
+
+#userinfo #userinfo_username .donateico a {
+    font-family: noita;
+    color: #fff;
+    font-size: 1.9em;
+}
+
+#userinfo #userinfo_username .donateico a:hover {
+    color: #aaa;
+}
