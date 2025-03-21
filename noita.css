@@ -10,7 +10,7 @@ body {
     background-image: url('https://files.catbox.moe/x0d71n.png');
 }
 
-.master_29116 #logo {
+body #logo {
     background-image: url('https://files.catbox.moe/ku3jrj.png');
     background-size: contain;
 }
